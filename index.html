@@ -2,8 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>Vanilla JavaScript autoComplete</title>
-    <meta name="description" content="A lightweight autocomplete plugin with no dependencies, written in plain JavaScript.">
-    <link rel="shortcut icon" href="https://pixabay.com/favicon.ico">
+    <meta name="description" content="VU License Categories">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300">
     <link rel="stylesheet" href="https://cdn.rawgit.com/yahoo/pure-release/v0.6.0/pure-min.css">
@@ -48,7 +47,7 @@
     <div style="max-width:900px;padding:0 10px;margin:40px auto;text-align:center">
     </div>
     <form onsubmit="return false;" class="pure-form" style="border-top: 1px solid #eee;border-bottom:1px solid #eee;background:#fafafa;margin:30px 0;padding:20px 10px;text-align:center">
-        <input id="hero-demo" autofocus type="text" name="q" placeholder="Programming languages ..." style="width:100%;max-width:600px;outline:0">
+        <input id="hero-demo" autofocus type="text" name="q" placeholder="License categories..." style="width:100%;max-width:600px;outline:0">
     </form>
     <div style="max-width:900px;margin:auto;padding:0 10px 50px">
         <h3>Overview and Features</h3>
@@ -65,15 +64,10 @@
             <li>Callbacks</li>
         </ul>
         <p>
-            This plugin was developed by <a href="https://pixabay.com/">Pixabay.com</a> - an international repository for free Public Domain images.
-            We have implemented this piece of software in production on <a href="https://plainjs.com/">plainJS</a> and we share it - in the spirit of Pixabay - freely with others.
         </p>
 
         <h3>Usage</h3>
         <p>
-            Include the JavaScript file <span class="inline-code">auto-complete.min.js</span> before the closing <span class="inline-code">&lt;/body&gt;</span> tag
-            and the stylesheet <span class="inline-code">auto-complete.css</span> in the <span class="inline-code">&lt;head&gt;</span> section of your page.
-            autoComplete accepts settings from an object of key/value pairs, and can be assigned to any text input field.
         </p>
         <pre class="prettyprint"><code>// initialize
 var my_autoComplete = new autoComplete({key1: value1, key2: value2});
